@@ -1,0 +1,580 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preach'd in the Cathedral Church at the triennial visitation of the right reverend ... Seth, Lord Bishop of Sarum ... by Samuel Fyler.</title>
+            <author>Fyler, Samuel, 1638-1703.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 73 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A40758</idno>
+            <idno type="STC">Wing F2568</idno>
+            <idno type="STC">ESTC R24044</idno>
+            <idno type="EEBO-CITATION">07944382</idno>
+            <idno type="OCLC">ocm 07944382</idno>
+            <idno type="VID">40615</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A40758)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40615)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1206:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preach'd in the Cathedral Church at the triennial visitation of the right reverend ... Seth, Lord Bishop of Sarum ... by Samuel Fyler.</title>
+                  <author>Fyler, Samuel, 1638-1703.</author>
+               </titleStmt>
+               <extent>[3], 28 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E.T., and R.H., for Thomas Flesher,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Matthew VI, 9 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-12</date>
+            <label>Jayanthi Reddy</label>Sampled and proofread</change>
+         <change>
+            <date>2012-12</date>
+            <label>Jayanthi Reddy</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:40615:1"/>
+            <pb facs="tcp:40615:1" rendition="simple:additions"/>
+            <p>A SERMON Preach'd in the Cathedral Church at the Triennial VISITATION OF The Right Reverend Father in God SETH, Lord Biſhop of SARUM, Chancellor of the GARTER.</p>
+            <p>By <hi>Samuel Fyler</hi> A. M. Rector of <hi>Stockton</hi> in the County of <hi>Willts, Septemb.</hi> 13. 1680.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>E. T.</hi> and <hi>R. H.</hi> For <hi>Thomas Fleſher</hi> at the <hi>Angel</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s Church-Yard. 1682.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:40615:2" rendition="simple:additions"/>
+            <pb facs="tcp:40615:2"/>
+            <head>To the Right Reverend Father in God <hi>Seth,</hi> Lord Biſhop of <hi>Sarum,</hi> Chancellor of the Garter.</head>
+            <opener>
+               <salute>My Lord,</salute>
+            </opener>
+            <p>YOUR Command to Preach, and your Incouragement to Print this Sermon, have given me the Confidence thereun<g ref="char:EOLhyphen"/>to to prefix your Name, and more eſpecially yours, for that Reſpect you have to Truth, Loyalty, and Peace, the Pro<g ref="char:EOLhyphen"/>moting of which is my ſole Aim in caſting this Mite into the Trea<g ref="char:EOLhyphen"/>ſury of the Church.</p>
+            <p>I am fully ſatisfied, it will meet with a multitude of Enemies, be<g ref="char:EOLhyphen"/>cauſe the Church hath many: but I look on't as a ſhame for that matter to concern my ſelf, after its Conſecration by the Blood of ſo many Martyrs, eſpecially that Royal one, King <hi>Charles</hi> the Firſt, who hath given us an Example, not to be Paralell'd, but in one only, in that of our Bleſſed Saviour.</p>
+            <p>I pray God grant (when his forty Years of Patience ſhall be ex<g ref="char:EOLhyphen"/>pired, and ſo long he waits to ſee if a People will Repent) this Nati<g ref="char:EOLhyphen"/>on may not ſuffer for that Prodigious Wickedneſs (as we have juſt Cauſe to Fear) the like things that <hi>Jeruſalem</hi> did for Crucifying Him.</p>
+            <p>But my Hope is, it will not; and that for this Reaſon; becauſe it was not the Clergy of the Church of <hi>England,</hi> nor was it any thing in her Doctrine, or Liturgy, that brought our moſt Gracious, and Re<g ref="char:EOLhyphen"/>ligious King to the Block; but Rebells, Murderers, Traytors, Spiri<g ref="char:EOLhyphen"/>ted by <hi>Achitophel</hi>'s Chaplains, who, if they might have had Leave given 'em, would by this time near hand have Prayed all Chriſtianity out of this into another World.</p>
+            <p>God Almighty preſerve his Sacred Majeſty, that now is, from the
+<pb facs="tcp:40615:3"/> Divinity and Mercy of ſuch Men; and then I doubt not, but he will ever, as he hath done, proceed to Protect that Liturgy joyfully, which directs us to Pray for him ſo devoutly, ſhewing it ſelf in that Re<g ref="char:EOLhyphen"/>ſpect, as well as many others, to be truly Apoſtolical.</p>
+            <p>My Lord, It would be Libellous for me to Recommend theſe things to your Wiſdom and Care, becauſe 'tis to move you to that which you already eminently do I ſhall only therefore Pray for your Lord<g ref="char:EOLhyphen"/>ſhips Health, and that God would be pleaſed to continue his Bleſſings to the Church, and to this whole Nation, and ſo give off: only beg<g ref="char:EOLhyphen"/>ging the Honour to Subſcribe my ſelf,</p>
+            <closer>
+               <signed>Your Lordſhips Moſt Humble, And Obedient Servant, Samuel Fyler.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:40615:3"/>
+            <epigraph>
+               <bibl>MATTHEW 6. 9.</bibl>
+               <q>After this manner therefore Pray ye.</q>
+            </epigraph>
+            <p>MAny are the Sins of <hi>England</hi> at this day, which have even ſhaken, and ſeem ſtill to threaten the Remotion of the Candleſtick from us, which God avert. A<g ref="char:EOLhyphen"/>mong the reſt, one, and that a great one, that ſtands in need of an <hi>Elijah,</hi> a St. <hi>John Baptiſt,</hi> another Word made Fleſh to reform it; I think, I may truly ſay in the general, and wretched Neglect, and Contempt of God's Worſhip and Service: ſome in all places almoſt refuſing to come to his Houſe to Wor<g ref="char:EOLhyphen"/>ſhip him there, Atheiſts, and they that ſeperate; others that come doing it ('tis to be fear'd,) for Faſhion's ſake only, like the Jews (of whom God complains by his Prophet) drawing nigh with their Lips, while their Hearts are far from him. And I wiſh this were all to be ſaid, but (the more's the Pitty,) the Service bears the Blame, Men are Schiſmatical, and Faulty; and then, that they may excuſe themſelves, they are ready to ſay, God is not ſerv'd after the right, and due manner.</p>
+            <p>What an heavy Charge this is to our ſpotleſs Mother, which was once look'd upon as the Beauty, and Glory of all the Church<g ref="char:EOLhyphen"/>es in Chriſtendom, is eaſie to ſay<g ref="char:punc">▪</g> but (the Miſchief is) to wipe it off is not ſo eaſie. I queſtion whether the Spirit of Propheſie, or a Voice from Heaven will do the turn, ſuch is the Prejudice men have taken againſt ſo Excellent and Holy a thing as the <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hurch<g ref="char:EOLhyphen"/>es Service is. For the Remotion of which, I wiſh the weight of ſo great a Task were laid on abler Shoulders, of one that <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſuf<g ref="char:EOLhyphen"/>ficient for theſe things; but however I <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hall offer to the Ch<gap reason="illegible" resp="#APEX" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>es Corban as I am able, as appearing here pur<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ly in Obedience and Duty; in Performance of which, if I do any thing acceptably, I ſhall hold my ſelf very well Content, as having no other Aim,
+<pb n="2" facs="tcp:40615:4"/> then to ſerve the intereſt of the Church, which I pray God con<g ref="char:EOLhyphen"/>tinue unto us with Truth, and Peace.</p>
+            <p>In purſuance of this Deſign now, as it is but rational that I ſhould pitch on ſome Words of Chriſt himſelf, he being the Churches Lawgiver, as well as Saviour, therefore call'd not only the High Prieſt, but alſo the great Apoſtle of our Profeſſion, ſo I have accordingly done. For theſe Words that I have read are a part of that divine Law which he delivered on the Mount, <hi>Mon<g ref="char:EOLhyphen"/>ti Sinaitico ſuperſtructo,</hi> as Dr. <hi>Hamond</hi> in his Book againſt <hi>Dalleus</hi> about Confirmation ſay's, built not by<g ref="char:punc">▪</g> but upon the top of Mount <hi>Sinai;</hi> whereby he would intimate that he intended not the A<g ref="char:EOLhyphen"/>bolition of the Law of <hi>Moſes,</hi> and of ſolemn Services then in uſe, but only the Reformation and Perfection of them, as 'tis true he did not. And here I take my riſe, on which to build my inſuing Diſcourſe. For that this is the full deſign of our bleſſed Saviour in this Sermon of his, not to deſtroy (put aſide Typi<g ref="char:EOLhyphen"/>cals) what was well ſet before, but to reform what was amiſs, by reaſon either of the falſe Gloſſes, or ungrounded Traditions, and Practices of the <hi>Scribes</hi> and <hi>Phariſees,</hi> that ſate at that time in <hi>Moſes</hi> Chair, will appear in all its parts, as you may ſee both in the precedent, and alſo in the preſent Chapter.</p>
+            <p>In the precedent, when he ſpeaks to the Letter of the Law; in this where he ſpeaks to the main parts of God's Worſhip; as particularly to Faſting, Almſgiving, and Prayer. For 'tis not Faſting he Condemns in any, but doing it as Hypocrites, for O<g ref="char:EOLhyphen"/>ſtentation, and Shew; nor is Almſgiving blamed by him, but g<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>v<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng of Alms with ſound of Trump, and to be ſeen of men. So for Prayer, we are to account that his end was at no hand to t<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke away a publick Service, or Liturgy-way uſed by them in thoſe days in their Prayer-places, and Synagogues: no, in that the Jews had a Liturgy, a ſet known manner of Service then, conſiſting of <hi>Tehillim,</hi> and <hi>Tephillim,</hi> Praiſes, and Prayers, which that they had Mr. <hi>Gregory</hi> makes appear too evidently to be denyed, this he diſapproves not; there is nothing to that purpoſe to be gathered from this Prayer of his, or any Circumſtance therein, or there<g ref="char:EOLhyphen"/>abouts. 'Tis true: as it relates to the <hi>Phariſees,</hi> ſo their Battolo<g ref="char:EOLhyphen"/>gies, and their making long Prayers, and that openly in the cor<g ref="char:EOLhyphen"/>ners of the Streets for a ſhew, and in pretext of Holineſs are
+<pb n="3" facs="tcp:40615:4"/> condemn'd by it utterly: but conſider it, as it relates to the Apo<g ref="char:EOLhyphen"/>ſtles, and then it has another Aſpect, for ſo it is to be look'd upon as a perfect and abſolute Form of Prayer, given (I doubt not to ſay) to be like the Shekel in the Sanctuary, a Standard to them: and whereas 'tis prefac'd with the Words I have read, they are (I conceive) to be look'd on as a Canon to warrant both the Uſe of it, and alſo the making it a Pattern for the Church to compoſe her Prayers by. For 'tis for ſuch ends as theſe (we are to think) that our Saviour Chriſt directing his Apoſtles in the Duty of Praying, ſay's unto them, <hi>After this manner Pray ye.</hi>
+            </p>
+            <p>In which Words there is an Act, and it's <hi>Modus,</hi> or an In<g ref="char:EOLhyphen"/>junction, and its Qualification: <hi>Pray ye, and Pray ye after this manner.</hi>
+            </p>
+            <p>Which two conſidered with what is premis'd, give ground for a double Quaere.</p>
+            <p n="1">1. Whether there ought to be a Solemn publick manner of Worſhip always in the Church of Chriſt?</p>
+            <p n="2">2. Whether, that being granted, we in our Church may be ſaid to Pray after the manner preſcribed by him?</p>
+            <p>Of both which, while I ſpeak Affirmatively, of the Firſt as briefly as I may, of the Second more amply; I crave the Pati<g ref="char:EOLhyphen"/>ence of this Reverend and Learned Auditory, and for my De<g ref="char:EOLhyphen"/>fects Pardon.</p>
+            <p>The Firſt is, Whether there ought to be a Solemn, and Pub<g ref="char:EOLhyphen"/>lick Worſhip always in the Church of Chriſt, or not? And,</p>
+            <p>That there ought to be, I collect from the Injunction here, in the Word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Pray ye:</hi> in regard it is ſpoken by our Saviour in the Plural Number, as to many; and for that the Prayer it ſelf is in the Plural too, <hi>Our Father;</hi> and then becauſe it ends with <hi>Amen,</hi> which is a Note of publick Uſe: but chiefly, in regard theſe Words are a part of his Divine Law, (as I in<g ref="char:EOLhyphen"/>ſtanc'd before) whereby he muſt be thought to eſtabliſh God's Worſhip, if at all, or any where. For we may not imagine that the Words of this great Lawgiver import ſo little, as that this Pray<g ref="char:EOLhyphen"/>er of his ſhould ſerve only for the preſent Uſe of his Diſciples, and that it ſhould be a Temporary thing: Nor can we conceive he meant that the Chriſtian Church ſhould have a leſs Solemn Ser<g ref="char:EOLhyphen"/>vice than the Jewiſh had. If ſo, why is this a part of this Ser<g ref="char:EOLhyphen"/>mon
+<pb n="4" facs="tcp:40615:5"/> of his in the Mount, where he is giving his Law? why does he deliver it with ſo much Solemnity, as he does; with ſo much Majeſty, and Authority? and why does he bring it in with other ſubſtantial parts of the Law of <hi>Moſes,</hi> of which he profeſſes he came not to Deſtroy the leaſt Iôta? Surely, a Solemn Service, or way of worſhiping God he meant by't ſhould be in his Church, of which the Apoſtles to whom he ſpeaks, next to himſelf the prime Foundation Stones, and that perpetual: a known Solemn, Publick; and Perpetual Service which all Chriſtian People ſhould have Recourſe to, even as God's People the Jews had anciently at the Temple, and their leſſer Synagogues. Then it was ſo in thoſe Days when the Prophet <hi>Haggai</hi>'s Glory appeared in the Second Houſe; and is it not moſt rational that it ſhould be ſo in ours? Yea, is it not inferrible from this Rule and Precept mani<g ref="char:EOLhyphen"/>feſtly? Let who will imagin otherwiſe, it is what I may, and therefore ſhall expreſs Definitively, that ſo long as there ſhall be a Church upon the Face of the Earth, this will authoriſe her to ſee that Prayers and Praiſes be rend'red to Almighty God pub<g ref="char:EOLhyphen"/>lickly, continually, and that they aſcend up (like the Smoke of the Morning and Evening Sacrifice at the Temple) as a due Homage to him. For it the Arguments are very weighty, and momen<g ref="char:EOLhyphen"/>tous. For,</p>
+            <p n="1">1. Had they a Prieſthood? ſo have we, an Order of Men ap<g ref="char:EOLhyphen"/>pointed to be for ever in the Church by an unalterable Conſtitu<g ref="char:EOLhyphen"/>tion. Therefore doth the Apoſtle ſay of our Saviour Chriſt that he hath a Prieſthood that's unchangeable, or that paſſeth not a<g ref="char:EOLhyphen"/>way, <hi>Heb.</hi> 7. 24. As bleſſing us from Heaven by his Interceſſion, on Earth by his Miniſtry: and to like effect is that Promiſe of his to his Apoſtles, that he would be always with them unto the end of the World, <hi>Mat.</hi> 28. 20. Which Promiſe the Church has al<g ref="char:EOLhyphen"/>ways underſtood, not of the Apoſtles conſidered perſonally, but of Church-Officers by an uninterrupted Succeſſion. I know, the Eraſtians of our Age wreſt the Words another way, that there<g ref="char:EOLhyphen"/>by they may evacuate Epiſcopal Ordination. For by <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> there (ſay they) is meant only the End, or Conſummati<g ref="char:EOLhyphen"/>on of the Jewiſh Oeconomy, as it is taken <hi>Heb.</hi> 9. 26. But howe<g ref="char:EOLhyphen"/>ver, grant it be ſo, it matters not; for, that things were to conti<g ref="char:EOLhyphen"/>nue ever after as they, even as the Apoſtles left them, is as un<g ref="char:EOLhyphen"/>doubtedly
+<pb n="5" facs="tcp:40615:5"/> true, as that our Saviour till then was alwayes with them.</p>
+            <p>Again. Had they, the (Jews) a Day in which to ſerve God? ſo have we. We now the Lord's Day, as they then the Sabbath. And why a Day, but for Holy Services to be perform'd in it? Take away, Theſe, by which the Day is Sanctify'd and Hallow'd, and ye will near-hand make the Day an idol, keeping the Day for the Dayes ſake, which is the Sabbath of the Ox, and the Aſs. Theſe two muſt go together ſtill. If Almighty God, who made all Days, be pleaſed above others with a Seventh, or a Firſt, it is for our ſakes, that we may therein Devote our ſelves to his Ser<g ref="char:EOLhyphen"/>vice, and that we may commemorate the great Benefits of our Creation and Redemption.</p>
+            <p n="3">3. What think we of the Celebration of the Euchariſt, which is in lieu of their Paſſeover, in which we remember afreſh, and anew the Death of our Saviour Chriſt, of Chriſt our Paſſeover, as the Apoſtle ſtiles him, who was Sacrificed for us? is not that Solemnly to be Celebrated by us? And if ſo, can it be done (I ask) without Prayers, and Hymns? how can that be? St. <hi>Mark</hi> ſays, that our Saviour, and his Apoſtles ſung an Hymn at the In<g ref="char:EOLhyphen"/>ſtitution of it; the known, or wonted Hymn, or Hallelujah, ſay the Criticks, that was uſed at the Feaſt, beginning Pſalm the 113, and ending Pſalm the 118; and that Prayer was ever a Solemn Concomitant of this Grand Duty, is evident <hi>Act.</hi> 2. 42. Where 'tis ſaid of thoſe Firſt Fruits of the Apoſtles Preaching, that they continued in the Apoſtles Doctrine, and Fellowſhip, in Break<g ref="char:EOLhyphen"/>ing Bread, and in Prayer.</p>
+            <p n="4">4. Thus we have a Prieſthood, a Day, a Duty, the Eucha<g ref="char:EOLhyphen"/>riſt for one, to which I might add more; and have we not an Houſe too? Yes, ever was there, and muſt be for the before ſpecifyed Ends; of which I ſhall ſpeak a little more largel<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, as making out to us the Publickneſs, and Perpetuity of God's Worſhip for therefore. <hi>Mat.</hi> 21. 13. does our Saviour ſay it is written. <hi>My Houſe ſhall be called an Houſe of Prayer,</hi> and that, as <hi>Eſay</hi> ſaith, (from whom that Text is quoted,) for all People. A Pregnant and full Teſtimony for what I affirm. It is apparent here, that an Houſe belongs to God. which Chriſt calls his Houſe, there<g ref="char:EOLhyphen"/>fore not a Private one; and likewiſe that it is not ſo much <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb n="6" facs="tcp:40615:6"/> Houſe of Preaching, as of Prayer, to which his People are to that end to Reſort, and Congregate themſelves, in Correſpondence to which the Tabernacle of old was ſtil'd <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Ohel Mognèd,</hi> the Tabernacle of the Congregation. My Houſe, I obſerve, 'tis cal<g ref="char:EOLhyphen"/>l'd, that is, diſtinctly God's Houſe; and why, but becauſe there we are to ſeek his Face? for that he is there preſent, and there his Honour dwelleth. Moſt certain it is that there we have more than his Preſence of Eſſence, which is every where; for there we have his Preſence of Grace, or Habitation. For this Reaſon is he called among the Rabbins <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Hashekijnah;</hi> for his dwelling with us, I mean, his ſpecial Preſence in Conſecrated Places, where he ingageth himſelf to be Attentive to the Prayers of his People; as for his Nature, and Eſſence, he is Stil'd <hi>Jehova,</hi> a Name that imports the Eternity, and Neceſſarineſs of his Exiſt<g ref="char:EOLhyphen"/>ence: ſo that when we come to his own Houſe, conclude we may, that he is there, and that he will be in the midſt of us. True, he does not manifeſt himſelf now, as he did when the Temple ſtood, ſometimes in a Cloud, ſometimes by a ſtill Voice, ſometimes by Angels, all call'd the Glory at that time: Nor did he then alwayes neither, but only upon Occaſion; yet acknowledg we muſt (as did they) even then, when they ſaw no viſible Appearance, that he is indeed preſent, tho inviſibly, yet truly, by his Holy Spirit, by his Angels, in his Word and Sacraments, which is his Face, that is to ſay, his aſſumed Face, and that we are to ſeek it there, as the Jews did at his Tabernacle of Old. The Truth is, 'twas ever ſo, ever was there a publick Place where God would be met withal. In Paradiſe it ſelf, an aſſigned Place we read of, even there; whether betwixt the Sacramental Trees, or ſomewhere near the Tree of Life, I determine not; but I infer it from thoſe Words, <hi>Gen.</hi> 3. 18. where 'tis ſaid, <hi>Adam,</hi> and <hi>Eve</hi> hid themſelves from the Preſence of the Lord God. From his Omnipreſence they could not, did not flie; 'twas from his Preſence therefore of Appearance, where they were wont to meet him, or where he had met them before: the Phraſe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Mippenc Jehovah,</hi> is taken (I find) in that Sence, as the Talmud ſays. After the Fall, <hi>Cain</hi> and <hi>Abel</hi> had a peculiar Place, where they offered Sacrifice, <hi>Gen.</hi> 4. After the Flood <hi>Abraham</hi> had an Altar made. <hi>Gen.</hi> 12. 8. And afterwards a <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ove, <hi>Gen.</hi> 21. 32. Where he called upon the Name of the Lord.
+<pb n="7" facs="tcp:40615:6"/> 
+               <hi>Jacob</hi> laid the firſt Stone of an Houſe for God, <hi>Gen.</hi> 28. 22. and <hi>Ch. 35. 7. He went up to</hi> Bethel, <hi>and finiſhed his Purpoſe there, calling the Place</hi> El-Bethel, as much as, the God of the Houſe of God. After this, in the Wilderneſs the Jews had an Ambulatory Sanct<g ref="char:EOLhyphen"/>uary; in <hi>Solomon</hi>'s Days a fixt Temple. In <hi>David</hi>'s time we read of many Houſes of God in the Land; in the Son of <hi>David</hi>'s, beſides the Temple, of many Synagogues, <hi>Hammidraſches, Beth<g ref="char:EOLhyphen"/>hakkeneſeth's,</hi> and <hi>Prouſeucha</hi>'s, and <hi>Gnatyôth,</hi> or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, all de<g ref="char:EOLhyphen"/>dicated to Holy Uſes, and Offices. And let no Man Think that our Saviour Chriſt did diſcountenance theſe Places, or that his Holy Apoſtles did deſpiſe them; for it is no ſuch matter. How often is Chriſt found in the Temple, and in the Synagogues? <hi>Wiſt ye not,</hi> ſaid he, to his Father and Mother, when they ſought him, that I ſhould be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is, in my Father's Houſe, if rightly Interpreted, rather than about my Father's Buſineſs. <hi>Luc.</hi> 2. 49. And what of his Apoſtles? St. <hi>Luke</hi> tells you, that they were after Chriſt's Death continually in the Temple praiſing, and bleſſing God, <hi>Ch.</hi> 24. 53. and in the beginning of the <hi>Acts,</hi> where he carries on the Story, he tells us, <hi>Ch.</hi> 1. 13. that they went up in<g ref="char:EOLhyphen"/>to an upper Room, where they continued unanimouſly in Prayer, and Supplication; which is to be underſtood doubtleſs of ſome Room belonging to the Temple, of which were many for that end; as <hi>Beth-haêben,</hi> the Houſe of the Stone, and <hi>Beth-hattebijtah,</hi> the Houſe of Waſhing, and ſeveral more. I know, it is ſaid, <hi>Act.</hi> 2. 46. that they continued with one Accord in the Temple, and breaking Bread from Houſe to Houſe: but (as our Criticks ob<g ref="char:EOLhyphen"/>ſerve) 'tis not ſo well Tranſlated there; for, that they ſhould not go from Houſe to Houſe, was given in Charge before; and there<g ref="char:EOLhyphen"/>fore (according to the Helleniſts Greek adapted to the Hebrew, where the Prepoſitions are few, and ſignifie differently) by <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, we are to underſtand rather <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, in the Houſe; and con<g ref="char:EOLhyphen"/>ſequently it muſt relate to the Temple, or one of the <hi>Gnalijôth,</hi> or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> thereunto belonging. It is granted, that 'tis ſaid of St. <hi>Paul,</hi> when at <hi>Rome,</hi> that he dwelt two whole Years in an hired Houſe, and received all that came to him, preaching the Kingdom of God, <hi>Act.</hi> 28. 30. But what of that? I cannot ſpeak poſitively, 'tis true but in Probability, (methinks) he might not ſtray from this Rule. For, why might there not be a Proſeucha there, or a Jew<g ref="char:EOLhyphen"/>iſh
+<pb n="8" facs="tcp:40615:7"/> Oratory near at hand? it is undoubted that there were ma<g ref="char:EOLhyphen"/>ny at that time in all Places where the Jews did come; one at <hi>Neapolis,</hi> of which <hi>Joſephus,</hi> and <hi>Euſebius</hi> ſpeak; and that there were divers at <hi>Rome,</hi> we learn from <hi>Juvenal,</hi> a Poet of theirs; ſo that for all we know he might place himſelf near one of them. But, there is a place yet which may ſeem to Juſtifie the Field-Conventicles, it may be ſaid, and that is <hi>Luke.</hi> 6. 12. Where we read of our Saviour himſelf, that he went into a Mountain to Pray, and continued all Night in Prayer to God; what may be ſaid to this? Truly conſult we the Original, and that, I preſume, will help us out: For it is certain, that there 'tis <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, not to God, but of God; and therefore by <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, we are to underſtand rather <hi>Domus Orationis,</hi> as it is taken in other places of the New Teſtament, an Houſe of Prayer; and then the Tranſlation will be, That he continued all Night in a certain Prayer-Place, or Oratory, which were wont to be built, ſome on Mountains, ſome on Ri<g ref="char:EOLhyphen"/>vers ſides: and yet if he did ſpend the Night in Prayer upon the Mountain, it was private Prayer, 'tis to be obſerved, and ſo makes nothing at all for them. Indiſputable it is, that there were at that time Houſes many, Synagogues, and Oratories, ſet apart to God's Service, and that the Apoſtles, when they met together to Pray, and break Bread, uſually frequented, and made choice of them. And then who will queſtion, but that they would have the ſame practiſed by the inſuing Churches, but that they would have a Publick, and Perpetual Service alſo? if not, why the Temple called an Houſe of Prayer, for all People, by our Savi<g ref="char:EOLhyphen"/>our himſelf, and by God's Prophet before him?</p>
+            <p>And now does not this Juſtifie, yea, does it not commend unto us the Wiſdom and Conſeience of the Church we live in? it does exceedingly: In regard ſhe hath taken Care that God ſhould be ſo Worſhipped, and Served as he ought to be; Publickly Solemn<g ref="char:EOLhyphen"/>ly, Perpetually; with Confeſſions, and Prayers, with Thankſgi<g ref="char:EOLhyphen"/>vings, and Hymns, as becomes the Majeſty of him who dwells in the higheſt Heavens, as to his Glory; and yet condeſcends to dwell in earthly Houſes, in reſpect of his gracious Preſence, that there Sinners may ſeek his Face, and find him. Did I ſay, juſti<g ref="char:EOLhyphen"/>fie? Surely the Church could not perform its Truſt elſe, if it did not ſo; if it left I mean, God's Worſhip to be performed at Ran<g ref="char:EOLhyphen"/>dom,
+<pb n="9" facs="tcp:40615:7"/> or otherwiſe then in the moſt Solemn Manner it could ima<g ref="char:EOLhyphen"/>ginably be: If it did not propoſe him to be ſerved by all People with moſt perfect Prayers, and higheſt Praiſes, that we may do God's Will on Earth, as they, <hi>viz.</hi> the Angels in Heaven do; as far as our Imperfections will permit us, that is, as near as we can. For ſhe is not only to look to the Duty, or the Act of Prayer, but alſo to its Matter, and Form, and all its Circumſtances; that they be according to the Will of her Maſter. And for that ſhe hath done ſo, O! that we could ſee our Happineſs! That we have ſuch a conſtant, publick Service! That we know whither to go that we may meet our God! whither to come that we may ſeek his Face! where to be that we may have Fellowſhip with the Father, and his Son Jeſus Chriſt! that we may pertake of his Preſence, ſit at Table, and Eat, and Drink with him, even at his own Houſe, which is an Houſe of Prayer for all People! And let us not be un<g ref="char:EOLhyphen"/>thankful for ſo great a Bleſſing; the greateſt Bleſſing that we can wiſh to our ſelves, or that Heaven could poſſibly beſtow upon us, ſince our Saviour Chriſt, and the Holy Ghoſt came down thence. As <hi>Phinchas</hi>'s Wife did by the Ark of the Teſta<g ref="char:EOLhyphen"/>ment; I may give it the Title of the Glory of the Lord; and if it ſhould be taken from us, as that was by the Philiſtin's, how may we ſigh out the ſame Words that ſhe did at that time, and ſay, <hi>The Glory of the Lord is departed from Iſrael?</hi> Without Stations (the Jewiſh Proverb goes) that is, without Prayers, the World would not conſiſt, nor would it indeed. For theſe are thoſe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>Thimróth Gnaſhan,</hi> the Incenſe-Clouds, or Piliars of Smoak in the Book of <hi>Canticl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s,</hi> that Chriſt is to be ſeen in; the Saultie<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to his Holy Croſs which upholds the World with its four Parts, it is true in the Spirit, tho not in the Letter, what the Jews aſſume to themſelves, as I have it from <hi>Buxtor<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Tam nou <gap reason="illegible" resp="#APEX" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> dus hic ſubſiſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re ſine Iſraelitis, quam ſine A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re, &amp; <gap reason="illegible" resp="#APEX" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </hi> that the World can no more ſubſiſt without <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> as Pray as <hi>Jacob</hi> did, for which he was cal<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> with God, then with <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t the Element of <gap reason="illegible" resp="#APEX" extent="4 words">
+                  <desc>〈◊◊◊◊〉</desc>
+               </gap>. It is the Morning and Evening Incenſe which <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap> Heaven from our H<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ly Places daily, that <gap reason="illegible" resp="#APEX" extent="4 words">
+                  <desc>〈◊◊◊◊〉</desc>
+               </gap> all we have: for the keeping off of <gap reason="illegible" resp="#APEX" extent="5 words">
+                  <desc>〈◊◊◊◊◊〉</desc>
+               </gap>; that the Sword is not made drunk with <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap> the <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap>
+               <pb n="10" facs="tcp:40615:8"/> not look in at our Windows; that our Land is not made an A<g ref="char:EOLhyphen"/>keldamah, or a plow'd-up Field. It is this that we owe our Plen<g ref="char:EOLhyphen"/>ty, and our Peace to: which through Chriſt is the Cauſe of all the Gracious Appearances of God to us. You'l find <hi>Luk.</hi> 1. That the Angel appeared to <hi>Zacharias</hi> at Incenſe-time, <hi>v.</hi> 10. and <hi>v.</hi> 11. ſtanding at the right Hand of the Altar of Incenſe; a Type that of our Prayers now being offered to God at the time Accepted, which is at the time of the Publick Congregation. For this is that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Gneth Râtſôn,</hi> of which the Pſalmiſt ſpeaks, the accepted Time, or Time of Acceptation. Therefore the Jews, if they ſaw a Man neglecting the Times of Prayer at the Synagogues, they call'd him <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Shôchên râng,</hi> an ill Neighbour 'tis render'd, but it has a further Significancy: for as Almighty <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od is called by <hi>E<g ref="char:EOLhyphen"/>ſay</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Shôkên Gnad,</hi> one that Inhabits Eternity, ſo did they underſtand by it, that ſuch a one was an Inhabitant of Wickedneſs, that his Shekinah was Wickedneſs; as if he dwelt in Puddles, and Gutters, and Sinks, like that Eſſene Mr, <hi>Godwin</hi> ſpeaks of, that being fallen accidentally into a Jakes, rather then be pulled out by the Chriſtians, would keep his Sabbath there. And,</p>
+            <p>Let them conſider this, who ſeparate from the Service of the Church, that refuſe to be there at the acceptable Times where God is ready to hear, and is night to all them that call upon him. For what I have ſaid, as it juſtifies the Church, ſo does it condemn them as much, that diſregard, and decry its Conſtitutions, and Appointments; that ſcoff at, and make light of its Prayers, and Litanies; that chooſe their own way of ſerving God, as <hi>Mi<g ref="char:EOLhyphen"/>cah</hi> in the Book of <hi>Judges,</hi> who of his ſtolen Money made a gra<g ref="char:EOLhyphen"/>ven Image, and a molten Image, an Ephod, and a Teraphim, and got a ſorry Levite to ſerve him for ten Shekels <hi>per Annum,</hi> a ſuit of Apparel, and a little Victuals, and ſo had a Service of his own in his own Houſe. For ſo do they (in part at leaſt) I mean, our Sectaries; they will ſerve God their own way, the manner that likes them beſt, or not at all. They will not frequent God's Houſe, his Face they will not ſeek there; but Worſhip their own Teraphim, preferring before the Churches Conſtitutions their own Imaginations, and Fancies, as <hi>Michah</hi> his Graven, and Molten Images, all the while pretending that they are wiſer then their Teachers, thoſe Spiritual Guides to whom God hath committed
+<pb n="11" facs="tcp:40615:8"/> the Care of their Souls; as if God would not ſooneſt be heard in his own Houſe, and in Forms of Prayer wiſely, and diſcreetly made after the Pattern that is here given us by Chriſt. And here,</p>
+            <p>My ſecond Point comes to hand, the <hi>Modus</hi> of this Act, or the Qualification of our Saviour's Injunction, <hi>After this manner Pray ye.</hi>
+            </p>
+            <p>What this Manner is, I ſhall not be long in declaring; it's plain, I need not. The Pattern, as you well know, is our Lord's own Prayer, the Canon, that which all our Prayers are to be ruled by: So that <hi>after this manner</hi> imports as much as this comes to, that our Prayers be both for Matter, and Form ſuch as that is. That we may uſe a Form, St. <hi>Luke</hi> is poſitive for it, who ſays, <hi>when ye Pray, ſay thus:</hi> and that the Matter be ſuch as our Bleſſed Savi<g ref="char:EOLhyphen"/>our directs to, will be denyed, I ſuppoſe, by none that have their Wits about them. The ſequel of this is, that from a Church which does ſo Pray as is here preſcribed, that is to ſay, after the Pattern given us by Chriſt himſelf; no Man can pretend to have a juſt Reaſon, or Ground of Separation. For why? it is the Com<g ref="char:EOLhyphen"/>mand of our Bleſſed Saviour, it is the Law-giver of the New Te<g ref="char:EOLhyphen"/>ſtaments own Injunction; he ſays it, and that to his Apoſtles, <hi>af<g ref="char:EOLhyphen"/>ter this manner Pray ye.</hi> Therefore, that we may be ſatisfyed in Point of Conſcience, concerning our own Practice, and that men may ſee what Church they ought rather to joyn themſelves to, it will I hope be worth our Diſcuſſion, and conſequently I ſhall make it the ſubject matter of my Inquiry, whether our Church does ſo, or not.</p>
+            <p>There are who ſay, it does not. They at <hi>Rome,</hi> or Diſſenters at home: but that they have little Reaſon for what they ſay, I hope ſufficiently to Evidence; which that I may do, I ſhall Indea<g ref="char:EOLhyphen"/>vour to ſhew, that neither of theſe do Pray after this manner, and that our Church does aſſuredly.</p>
+            <p>Not they firſt. And, I begin with them of the Church of <hi>Rome,</hi> whoſe Council of <hi>Trent</hi> has ordered, that the Manner in uſe with them be uſed in all Chriſtian Churches, and no other. For ſo has that Council defined; how rightly, when you have heard my Exceptions, will eaſily be judg'd. I do not except againſt them, that they Pray by way of Liturgy, God forbid I ſhould: nor yet for giving a due Honour to the Saints departed, their Memory is
+<pb n="12" facs="tcp:40615:9"/> ever bleſſed with us: nor if they receive the Euchariſt with all poſſible Veneration, 'tis what we allow, and Practiſe: nor if they worſhip God, and Chriſt at the Altar, ſo do we as <hi>David</hi> at the Mercy-Seat, it is the Throne of Chriſt. But that which we are juſtly offended at is, that in their Breviaries, and Miſſals we are obliged to fall down to, and worſhip Images even as the Prototy<g ref="char:EOLhyphen"/>pes: that we are called upon to Invocate, and to Pray to Saints, and Angels: that we are required to Worſhip with <hi>Antiochus Epiphanes <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Le-eloah Magnuzzim,</hi> (ſo are their Re<g ref="char:EOLhyphen"/>liques called) ſtrong Holds, or Munitions, together with the true God: that we are commanded to adore the Sacrament with Di<g ref="char:EOLhyphen"/>vine Adoration, to give it <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and ſo to look upon a Wafer, or a piece of Bread as our God. How contrary is all this to the Con<g ref="char:EOLhyphen"/>tents of this Prayer of our Lord, given us as a Rule to go by? By his Rule we are to worſhip none but the God of Heaven only. But, as to the laſt of theſe, (which I deſire to inſiſt a little on, becauſe 'tis what they maintain without making Shifts) They ſay it's Chriſt himſelf is there his true real Body; and ſhall they not Wor<g ref="char:EOLhyphen"/>ſhip him? Him? I anſwer, yes; we muſt, but this we muſt be ſure of, that 'tis he, and how ſhall we? For ſuppoſe the Bread be Tranſubſtantiated by the Conſecration of an honeſt Prieſt; yet if a perfidious Prieſt ſhould not intend to Conſecrate, I hope, it re<g ref="char:EOLhyphen"/>mains Bread ſtill; and if ſo, then it is not Chriſt, and to Worſhip it, muſt it not be Idolatry, I ask, then? For this, the more wary of them are wont to ſay, If thou be the Son of God, I Worſhip Thee. And good Reaſon. For if it be but Bread, 'tis Idolatry by their own Confeſſion: this their Rubrick ſhews, which orders the Prieſt not to let the People ſee the Hoſt, leſt they ſhould <hi>Ido<g ref="char:EOLhyphen"/>latrare,</hi> till after Conſecration; the Almighty part of the <hi>S<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>creta</hi> muſt firſt be ended. But, when all is done, if the Bread be not at all Tranſubſtantiated, ſuppoſing there be a Concurrence of the Prieſt's Intention, what then? I am ſure we have reaſon to believe that it is not. For they themſelves call the Elements <hi>Dona,</hi> and <hi>Data</hi> after Conſecration; and Pray to God to accept of them, as the Offering of the Child <hi>Abell,</hi> and as the Sacrifice of <hi>Abraham,</hi> 
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>M<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lchiz<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>deck,</hi> and withal that he would let his Angel carry it up to the Heavenly Altar, and preſent it at the Throne of his Ma<g ref="char:EOLhyphen"/>jeſty. It ſeems with them it is another Chriſt beſides him that is
+<pb n="13" facs="tcp:40615:9"/> already there, and till they have interceded for their Interceſ<g ref="char:EOLhyphen"/>ſor, God is not well pleaſed with him. Beſides, I argue thus; If the Bread be Tranſubſtantiated, then it loſes its own Suppoſi<g ref="char:EOLhyphen"/>tality, and gains a new Exiſtence, it muſt have an Exiſtence in the Perſon of the Son of God, no leſs then ſo, a new Hypoſtatical U<g ref="char:EOLhyphen"/>nion made: which being granted, Idemand, can it afterwards Periſh, Putrifie, become Mouldy? can it breed Worms, or be ea<g ref="char:EOLhyphen"/>ten with Mice? So the Hoſt may: how can this be? is not Chriſt's Body Incorruptible? ſhall God's Holy One ever ſee Cor<g ref="char:EOLhyphen"/>ruption? ſure enough, the Bread is not Tranſubſtantiated into the Body of Chriſt, and therefore to Worſhip it, is not to Worſhip Him. For their Doings here they appeal to Antiquity, and truly we very much Reverence Antiquity as well as they. But if we ſearch into the Canon of the Maſs, we ſhall find, that this is but a weak Plea. For, beſides that <hi>Durand</hi> ſays the Apoſtles Conſecrated with the Lord's Prayer only, and the Words of Inſtitution, it is ma<g ref="char:EOLhyphen"/>nifeſt that the Canon hath been added to, and altered many times, ſince firſt compoſed, whether by <hi>Gelaſius,</hi> or <hi>Scholaſticus</hi> I ſcan not. It was added to (<hi>Chemintius</hi> ſays) by <hi>Alexander</hi> the Firſt; by <hi>Leo</hi> the Firſt after him; by <hi>Gregory</hi> the Great; how well, I ſhall not examine. But, that it is not come down to us the ſame it was then, in thoſe Days, but that it hath been Corrupted ſince, is a Thing worthily, and upon good Grounds to be ſuſpected. For, (to let alone what was ſaid by that Dominican Fryar <hi>Antonius</hi> of <hi>Valtelina,</hi> in the Council of <hi>Trent</hi> its ſelf, who minded them of the Ancient <hi>Ordo Romanus</hi> which they had departed from) why was it, I pray, that St. <hi>Baſil</hi>'s Office in latter times was tolerated in <hi>Italy</hi> it ſelf, for the Sake of ſome Greeks there? and why did the Spaniards Contend ſo hotly for the Moſarabique Liturgy u<g ref="char:EOLhyphen"/>ſed by <hi>Iſidorus,</hi> and <hi>Hildefouſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s,</hi> one Biſhop of <hi>Sevil,</hi> the o<g ref="char:EOLhyphen"/>ther of <hi>Toledo?</hi> it was ſure becauſe they would not admit of in<g ref="char:EOLhyphen"/>novation. So, when the Gregorian Miſſal was deſigned to be or Univerſal Uſe, and the Ambroſian to be laid aſide in Pope <hi>Adri<g ref="char:EOLhyphen"/>an</hi>'s Days, what was the reaſon of ſo much ado in the World? For, as <hi>Durand</hi> in his <hi>Rationale</hi> tells us, to bring it on, he firſt made Uſe of the Power of King <hi>Pipin,</hi> and <hi>Charlemain;</hi> when that prevailed not ſufficiently, a Council is called; they too are Diſ<g ref="char:EOLhyphen"/>ſolved, and do nothing in it. What follows? About three Days af<g ref="char:EOLhyphen"/>ter
+<pb n="14" facs="tcp:40615:10"/> comes an Holy Man, by Name <hi>Eugenius;</hi> he deſires the Coun<g ref="char:EOLhyphen"/>cil may ſit again, they do: and it was ordered by them that the two Miſſals ſhould be laid upon the Altar of St. <hi>Peter,</hi> being ſeal<g ref="char:EOLhyphen"/>ed with Epiſcopal Seals, that the Church Doors ſhould be ſhut faſt, and they Pray to God all Night that he would ſhew ſome Token, which of the two he beſt accepted. This is done, and what is the Event? In the Morning (forſooth) becauſe the Gre<g ref="char:EOLhyphen"/>gorian Miſſal was taken in pieces, and ſcatter'd, the Leaves of it, here, and there over the Church; and that of St. <hi>Ambroſe</hi> lay whole on the Altar, this (they conclude,) was <hi>Divinitùs</hi> a Tok<g ref="char:EOLhyphen"/>en, that the one was to be uſed all the World o're, and the other only at <hi>Millan.</hi> A pleaſant thing this, is it not? And why all this adoe? what is the Reaſon? 'Tis Conjectured only for the Sake of that one Word <hi>Figura</hi> in the Canon of St. <hi>Ambroſe;</hi> for that he calls the Scrament the Figure only of the Body and Blood of our Lord. So that 'twas then, we conceive, and in <hi>Gre<g ref="char:EOLhyphen"/>gory</hi> the Seventh's Days, (of late Date at leaſt) that the Wor<g ref="char:EOLhyphen"/>ſhipping of the Hoſt, as God, came in: and together with it the Propitiatory Sacrifice inſtead of the Euchariſtical Oblation, and Invocation of Saints, in lieu of an honorable Commemoration of them. If ſo, then Antiquity will not bear them out. Nor will the great Boaſt of the Popes Infallibility neither; for, for that matter Mr. <hi>Crackanthrop</hi> tells us with undeniable Evidence, that <hi>Vigilius</hi> in the fifth General Council of <hi>Conſtantinople</hi> was curſt for <hi>Neſtorianiſm.</hi> Much leſs will the great Pretence of Univer<g ref="char:EOLhyphen"/>ſal Headſhip, ſince (beſides this Story of <hi>Vigilius</hi>) we are ſatisfy'd by <hi>S. Iſidorus,</hi> that <hi>Petrus de Lunâ, alias Benedict</hi> the thirteenth, was depoſed by the Council of <hi>Conſtance,</hi> as <hi>Eugenius</hi> afterwards by the Council of <hi>Baſil.</hi> We for our parts, know aſſuredly, that Chriſt is Head of his Church, and we are well aſſured alſo, that he is Infallible truly; and he hath taught us other things, then they do, to give Divine Worſhip, and to Pray to God only, to our Fa<g ref="char:EOLhyphen"/>ther which is in Heaven: and therefore the Council of <hi>Trent</hi> muſt Pardon us, if we accept not of its Definitions, but ſeparate from the Church of <hi>Rome</hi>'s Communion. For ſince they bind us to Pray otherwiſe then our Saviour does; to the Hoſt, to Saints, and Ang<g ref="char:EOLhyphen"/>els, to the Virgin <hi>Mary,</hi> as a Mediatrix betwixt God and Us, and the Queen of Heaven, I conclude that they (tho for Form they may)
+<pb n="15" facs="tcp:40615:10"/> yet for Matter, and Subſtance do not Pray after this manner.</p>
+            <p>Next come we to our Diſſenters at home, who deny all ſet Forms, and are for Extemporay Effuſion, as if that were it that our Saviour would have by ſaying, <hi>After this manner Pray ye;</hi> be<g ref="char:EOLhyphen"/>cauſe no Form, or Book was to be ſeen before him; are not theſe in the right? I anſwer, nor they neither, if we ſpeak in reference to the Publick, and Solemn Service, and Worſhip of God.</p>
+            <p n="1">1. Becauſe Chriſt came not, as I have already ſaid, to Aboliſh what was well ſet before, but to Reform what was Faulty, and Ma<g ref="char:EOLhyphen"/>nifeſt it is that the Jewes had ſet Forms of Prayer.</p>
+            <p n="2">2. The more is it Confirmed, becauſe this Pattern given by him is a Form it ſelf, and, as called by a Father, <hi>Breviarium Evangelii,</hi> an Epitomy of the Goſpel; ſo was it alſo a Collection or Epitomy of the Jewiſh Euchologue; as we learn from Mr. <hi>Selden, P. Fagius,</hi> and others. If we Conſult the Criticks, we may find from whence e<g ref="char:EOLhyphen"/>very Petition was taken, <hi>viz.</hi> from <hi>Sepher-Hammuſtar,</hi> and <hi>Sepher-Tephillim;</hi> their Books of Tradition and Prayers.</p>
+            <p n="3">3. More yet, for that ſet Forms were uſed by the Appoint<g ref="char:EOLhyphen"/>ment of God himſelf, as we may ſee, <hi>Num.</hi> 6. 23. Where God ſays to <hi>Moſes, ſpeak unto</hi> Aron, <hi>and to his Sons, ſaying, on this wiſe ſhall ye Bleſs the Children of</hi> Iſrael, <hi>ſaying unto them; the Lord Bleſs thee and Keep thee, the Lord make his Face to ſhine upon thee, and be gracious unto thee; the Lord lift up his Countenance upon thee, and give thee Peace, and they ſhall put my Name upon the Chil<g ref="char:EOLhyphen"/>dren of</hi> Iſrael, <hi>and I will Bleſs them.</hi> So again, at the Removal of the Ark, <hi>Num.</hi> 10. 35. Where, when the Ark ſet forward, the Prayer was, <hi>Riſe up Lord, and let thine Enemies be ſcattered;</hi> and when it reſted again, <hi>Return, O Lord, unto the many Thouſands of</hi> Iſrael.</p>
+            <p n="4">4. Yet more, becauſe of our Saviour's own Example, who in his Agony uſed the ſame Words three times over, <hi>Let this Cup paſs from me.</hi> Beſides,</p>
+            <p n="5">5. May I not juſtly argue from the Inconveniencies and Ab<g ref="char:EOLhyphen"/>ſurdities of Extemporary Prayers? why not? For they are great, and many, and ſuch as may not be indured in the Solemn Wor<g ref="char:EOLhyphen"/>ſhip of God, in a publick Congregation. For that, which they which ſtand for it, are ſo much againſt, falls out unto them; the ſtinting, I mean of the Spirit; they ſtint the People (ſay what they
+<pb n="16" facs="tcp:40615:11"/> will) more by much then they are ſtinted by a Form of Prayer, which they know before. They are ſuch alſo as leave the People to be impoſed upon; by an Humoriſt, or a Madman, or one that is Unorthodox, or Heretical. Yea, they are Obnoxious to Non<g ref="char:EOLhyphen"/>ſenſe, and Blaſphemy; and in what can we hope to find Atone<g ref="char:EOLhyphen"/>ment, if our very Prayers are Provocations? Finally, they are ſuch as no Man preſent can aſſure himſelf, that he can ſay Amen to, as becomes moſt certainly ſuch Prayers, as we offer up to the great Majeſty of Heaven. Nor is it impertinent to queſtion, how all the Pariſhes in Chriſtendom ſhould be ſupplyed (not to men<g ref="char:EOLhyphen"/>tion theſe things) with Men of ſuch rare, and ſingular Ability's. ſcarcely to be believed to be in the Apoſtles themſelves, but that they were indued with Inſpiration from above. And Inſpiration, I know, no man but an abſolute Fanatick will pretend to. If any do, then what becomes of that Queſtion of St. <hi>Paul; Are all Apo<g ref="char:EOLhyphen"/>ſtles?</hi> ſure enough, all are not Apoſtles; I ſhall demand from them that pretend to that, that they ſhew me their Credentials from Heaven; that they let me ſee the Cloven Tongues ſitting upon their Heads; that they let me hear them ſpeak all Langua<g ref="char:EOLhyphen"/>ges: or make it appear that they have ſeen Chriſt out of Heaven, as St. <hi>Paul</hi> did. But in vain may we expect ſuch things as theſe, ſince <hi>John</hi>'s latter Days are paſt and gone. We are now an or<g ref="char:EOLhyphen"/>dinary Miniſtry, and Extraordinaries are put a Period to, even as the Star that conducted the Wiſe Men, went out at <hi>Jeruſalem;</hi> and as when the Children of <hi>Iſrael</hi> came to <hi>Canaan,</hi> where they might Plow, and Sow, then did Mannah ceaſe; it was in its In<g ref="char:EOLhyphen"/>fancy that the Church had the Teat put in her Mouth. So 'tis manifeſt, I think, that neither they at <hi>Rome,</hi> nor our Diſſenters at home do Pray after this manner. It remains to be conſidered next, whether we in our Church do. And,</p>
+            <p>If I prove, that a way of Liturgy, ſuch as we uſe, is to Chriſt's Meaning agreeable; and that there is nothing Unorthodox, no<g ref="char:EOLhyphen"/>thing Corrupt in ours; that we do, I conceive, will not be denyed. This therefore I ſhall indeavour to make good. And,</p>
+            <p>For the firſt of theſe, I ſhall not ſcruple (to let alone what hath been already ſaid) to Appeal to the Practice of the Apoſtles themſelves, and alſo of all Churches ſince, even to the precedent Century. For in the Apoſtles time, that they had then Liturgies,
+<pb n="17" facs="tcp:40615:11"/> known Offices, conſiſting of Prayers, and Praiſes in uſe with them, is eaſily Diſcerned, from St <hi>Paul</hi>'s Advice to the <hi>Romans, Ch.</hi> 15. 6. which is with one Mind, and one Mouth to Glorifie God, by which Words that a Form is meant, is more than inti<g ref="char:EOLhyphen"/>mated: from his reprehending the <hi>Corinthians, 1 Cor.</hi> 14. 26. Be<g ref="char:EOLhyphen"/>cauſe in their publick Aſſemblies they had every one a Pſalm, that is to ſay, a Manner, or Form of his own which hindered Edifica<g ref="char:EOLhyphen"/>tion, and bred Confuſion: and why not from that, <hi>Act.</hi> 13. 2. where we read, <hi>As they Miniſtred unto the Lord, and Faſted the Holy Ghoſt ſaid?</hi> Miniſter'd, 'tis rendered, but the Words in the Greek, are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as they were Liturgying; that is, becauſe joyned with Faſting, as they were performing Divine Service, which it ſeems was this way. For it further, the Litur<g ref="char:EOLhyphen"/>gy of St. <hi>James,</hi> and the Liturgy of St. <hi>Mark</hi> uſed by the <hi>Cophti</hi> ſtill, and that of St. <hi>Peter</hi> uſed a long time in the Church of <hi>Rome,</hi> are a ſtrong Inforcement, tho of them we can produce only ſome Fragments, and broken Pieces. For had they not had Offices, would it not have been known, and obſerved by after-Ages? but the ſucceeding times give account of the contrary, that they had. 'Twas not 300 Years after the Apoſtle's Days that the Council of <hi>Nice</hi> was, and then there is great mention of them; as you may ſee in <hi>Euſebius</hi> his fourth Book of the Life of <hi>Conſtantine,</hi> who tells us there of <hi>Orationum Syngraphe,</hi> a Book of Prayers, and <hi>Litur<g ref="char:EOLhyphen"/>gia Myſtica,</hi> ſo he calls it a Myſtical Liturgy, which <hi>Conſtantine</hi> the Emperor was preſent at. And what is more common then in Ec<g ref="char:EOLhyphen"/>cleſiaſtical Writers, to hear of the Liturgy of St. <hi>Hierome,</hi> and of St. <hi>Ambroſe;</hi> and ſo of St. <hi>Baſil,</hi> and St. <hi>Chryſoſtom?</hi> the laſt of which hath left it upon Record, that in the Primitive Church a<g ref="char:EOLhyphen"/>mong the extraordinary gifts of the Spirit: one was the gift of making Prayers, for the Church to uſe. It ſeems the Gift of Prayer was not look'd upon then as a Faculty of making long, and fami<g ref="char:EOLhyphen"/>liar Harangues to God, as it hath been of late Years without Senſe or Reaſon. Look we moreover on the Canons of the Councils, and we ſhall find them for us; that of <hi>Carthage,</hi> and that of <hi>Mele<g ref="char:EOLhyphen"/>vis,</hi> ſo early. It is the 23 Canon of the third Council of <hi>Carthage, Quaſcun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſibi preces, &amp;c.</hi> Let no Man uſe any Prayers that he hath made, unleſs he firſt conſult with the Brethren, <hi>i. e.</hi> Fel<g ref="char:EOLhyphen"/>low-Officers of the Church, who were learned, and well inſtruct<g ref="char:EOLhyphen"/>ed.
+<pb n="18" facs="tcp:40615:12"/> More ample is that of <hi>Melevis,</hi> which ſays, as I find in <hi>Caranza, Placuit ut preces, quae probaetae fuerunt in Synodo ab omnibus Celebrentur:</hi> It is our Will that Prayers only that are approved by a Synod be celebrated by all, <hi>nec alia omnino dicentur in Eccle<g ref="char:EOLhyphen"/>ſia,</hi> and that no other but thoſe that are ſo approved by a Synod be ſaid in the Church, leſt by chance any thing, either through Ignorance, or Careleſneſs be done againſt the Faith. Well then, that thus it was in the firſt 4 or 5 Centuries of the Church, be<g ref="char:EOLhyphen"/>ſides the Glimpſes for it in Scripture, Fathers, and Councils Teſti<g ref="char:EOLhyphen"/>fie. And what? that, it hath been ſo ever ſince, have we not the Conſent of the Churches of all Ages? we have, look we which way we will, either into the Eaſt or Weſt. Which being grant<g ref="char:EOLhyphen"/>ed, can we imagine that the Church hath continued ſo long, e<g ref="char:EOLhyphen"/>ven till theſe laſt Days, in ſo groſs an Error? or can we think it fit to throw aſide the way of the Univerſal Church in all Ages for a few Mens Sake that have Voluble Tongues? Or is not rather the Cuſtom, and Practice of the Church of all Ages in ſtead of a Rate, and perpetual Law? they are <hi>Saravia's</hi> Words, ſpeaking in reference to Epiſcopacy (which, and the Liturgy muſt Live, and Dye together) <hi>Mos totius Eccleſiae eſt inviolabilis quaedam lex,</hi> the Cuſtom of the whole Church is an inviolable Law: and which at peradventure ſo it ought to be eſteemed, yea to be kept, and held inviolably by us. For, tho ſuch a Cuſtom, or Conſtitution of the Church; in Mr. <hi>Weemes</hi> his Words, may not be <hi>Jus Divinum Di<g ref="char:EOLhyphen"/>vinè Divinum,</hi> a Law, that is properly, and purely Divine, as having no plain poſitive Command for it in the Scriptures; yet it is <hi>Jus Divinum humanè Divinum;</hi> of like Force, and in a man<g ref="char:EOLhyphen"/>ner equally Divine with that for which there is a poſitive Law, ſuppoſing ſtill it be Univerſal. It is <hi>quodam modo Divinum,</hi> as <hi>Forb<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſius</hi> in his <hi>Ierenicum</hi> ſays, in ſome manner Divine, as being founded in God's poſitive Law, which commands us to obey our Superiors, as them alſo to ſee, that all things be done according to Rule, and with all Decency and Order. And ſurely we have more reaſon to believe, that the Primitive Fathers would not ſtray from the Apoſtical Practice, who could not but ſee what was done before them, and would rather dye Martyrs then part with the leaſt Truth, then that the whole Church hath all along been deceived unto this preſent Day. On this Argument ſtands Infant-Baptiſm,
+<pb n="19" facs="tcp:40615:12"/> the Obſervation of the Lord's Day, Epiſcopacy, and the like; and to me it is prevalent before all that can be ſaid againſt it by Noveliſts. Common Prayer ſpoken of in the Epiſtles of <hi>Ig<g ref="char:EOLhyphen"/>natius</hi> has more in it than a World of Arguments produced, a<g ref="char:EOLhyphen"/>gainſt what I affirm. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith he, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: ſee that ye all come together in one place, let there be one Com<g ref="char:EOLhyphen"/>mon Prayer among you, one Mind, one Hope in Love, and Faith that is ſpotleſs. I go upon ſuch Grounds as theſe, and nothing ſeems to me more Plain (putting all together) than that the uſe of Liturgy is not only Ancient, but alſo Primitive, and Apo<g ref="char:EOLhyphen"/>ſtolical.</p>
+            <p>Now <hi>2ly,</hi> that in ours there is no Spot, or Blemiſh, for which to be rejected, I come next to prove. And had I need ſay any thing to that Matter? I know 'tis accuſed of Popery. But, O ye holy Martyrs, how came you to be ſo miſtaken then, as to dye thus in Defence of Popery, and in Defiance of it at one, and the ſame Inſtant? Mr. <hi>John Hullier,</hi> being burnt at the Stake with the Common-Prayer-Book in his Boſom? But (Oh!) there is ſomewhat of the Maſs Book in it. I confeſs it. There are the Creeds, and ſome of the Hymns, and Collects that are uſed by them, and they have a Litany too. But ſhall we aboliſh our Creeds, the Nicene, Athanaſian, and Apoſtolical, becauſe they have them as well as we? and throw away our Collects, and Litany, be<g ref="char:EOLhyphen"/>cauſe they have alſo Collects, and a Litany? Then away with the Chriſtian Religion upon that like Score. A weak Argument; and very inconſequent. Do we not know that if we reform Po<g ref="char:EOLhyphen"/>pery in what is amiſs, we do but as Chriſt did by the Jewiſh Eu<g ref="char:EOLhyphen"/>chologue? and that that is true which <hi>Solomon</hi> ſays, <hi>Take away the Droſs from the Silver, and there will come forth a Veſſel for the Refiner?</hi> But beſides, it is all Scripture, or agreeable thereto; (ſhall I tell you?) approved by <hi>Bucer,</hi> by <hi>P. Martyr,</hi> and other Pro<g ref="char:EOLhyphen"/>teſtant Divines abroad; yea, <hi>Calvin</hi> himſelf not diſapproving, the firſt Founder of the Claſſical way, making the Jewiſh Sanhe<g ref="char:EOLhyphen"/>drim his Pattern, in which he erred, for that was a Civil Court. Certainly that which ſome Men condemn it for, is its prime Ex<g ref="char:EOLhyphen"/>cellency. Its Excellency lyes in this, that our Reformers took a<g ref="char:EOLhyphen"/>way, and pared off all that was truly amiſs in their Prayer-Books,
+<pb n="20" facs="tcp:40615:13"/> and us'd no more but what was found in the Ancient Liturgies, or very agreeable thereto; thereby giving no juſt Ground of Scan<g ref="char:EOLhyphen"/>dal, which otherwiſe could not be avoided, yet muſt be avoided. There are petty Arguments made againſt it by Diſſenters, I know, which I might, had I time, make Reply to; but I ſhall forbear at preſent, referring you to the Anſwers of the Excellent, and ju<g ref="char:EOLhyphen"/>dicious Mr. <hi>Hooker,</hi> of whom I may ſay, as has been ſaid by ſome of <hi>Durand.</hi>
+            </p>
+            <lg>
+               <l>They knock, whoever ſhall 'gainſt <hi>Hooker</hi> Warble,</l>
+               <l>But Fiſt of Glaſs againſt his Head of Marble.</l>
+            </lg>
+            <p>And if any ſhall yet Riſe up to ſpeak againſt it, I doubt not, but there will be a <hi>Mahanâim,</hi> an whole Hoſt of God ready to March forth, and Incounter them. I confeſs, for my part, what I can do is but little: but what I have ſaid tho has ſatisfy'd me, and I am the more ſatisfy'd, becauſe I am fully Perſwaded, that thoſe Godly, and Reverend Divines, who Compos'd our Liturgy at the Reformation, did Tread as near as they could in the ſteps of our Saviour Chriſt, and his Apoſtles; following the Clue of the pureſt Times, and Ages; and had they, or could they have fin<g ref="char:EOLhyphen"/>ger'd the Service-book that was uſ'd by <hi>Abbot Dinôth,</hi> and the Brittiſh Monks before St. <hi>Auguſtine</hi> ſet his Foot here, they would have bleſt God for ſo rare a Jewel, and took Direction thence, as ſoon as elſewhere. The more again, becauſe I fully believe, that that Speech of the Aſſembly of Divines, in which they affirm they were Confident, that the Compoſers of our Service-book, the Martyrs in Queen <hi>Marys</hi> days, would, if then alive, have Conſented with them in their Directory way, was very Injurious to the Aſhes of thoſe dead Saints. For as they never gave any ſuch Item in their Live-times, ſo neither did the Learned'ſt, and the beſt of the Baniſht Clergy, when they return'd from <hi>Franckford,</hi> where they ſaw the Practice of thoſe where Presbytery was hatcht, ever Indeavour, or Attempt any ſuch thing. Nor can I think that they would have brought in any manner whatſoever, (tho recommended by the Hand of Angels) by the Sword, or Rebellion, or a Guiſian League; but rather have lookt upon it with Abhorrence, and Deteſtati<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the ſad Conſequences of which
+<pb n="21" facs="tcp:40615:13"/> doings have been ſuch that no Age ever knew the like, even the Death of our moſt pious King, the Baniſhment of his <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and all his Friends, Death, and Ruine, to the <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> of the Proteſtant, but of the Chriſtian Religion in <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> which we have ſtill Cauſe to Dread the hearing of <hi>
+                  <gap reason="illegible" resp="#APEX" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </hi> Woes in <hi>Joſephus</hi> and the Angel's <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</hi>
+            </p>
+            <p>You will not I hope blame the heat of my but <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap> for our Church I ſpeak, and its Liturgy; the <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap> things we have; which deſerve not our Words only, <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> Lives: If men ſhould hold their Peace, even <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> would ſpeak And truly,</p>
+            <p>Were I to ſpeak any where; before Nobles, States-men and Senators; like <hi>Neh<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>miah Tirſhaſha</hi> of the King of <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> hold, I would mind <hi>Jeruſalem</hi> in my ſayings, for <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> I would not hold my Peace.</p>
+            <p>Were I to ſpeak to the Angels of the Churches, or reverend Biſhops, I would move them in this behalf: but <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> them me<g ref="char:EOLhyphen"/>thinks betwixt Rock, and Gulph, and ſo lament them rather. God ſtrengthen their Hearts, and Hands, and give them Courage, and Wiſdom, that (He being their Pilot) they may keep our Church (like <hi>Noah</hi>'s Ark) ſtill going upon the Face of the Wa<g ref="char:EOLhyphen"/>ters.</p>
+            <p>Were I to ſpeak to the Worſhipful Gentry of this Nation, I would take upon me to mind them, how Honourable, and N<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ble a thing it would be for them to ſtand by, and Coumenance a Cauſe ſo good: the rather, becauſe their Dwellings perhaps, and E<gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>tes will not be ſo ſecure, if a Change ſhould come, which <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> bid.</p>
+            <p>Were I to ſpeak to Diſſenters, I would alſo <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> to lay aſide their Piques, for they are no more but ſo <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap> ſo Glorious a Church ſhould be brought to Ruin, and <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap>, is it not great Pity? O the <hi>Ah<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lah,</hi> which boaſts it's <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> own Tabernacle, would come over once to <hi>Aholihab,</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of which is, God's Tabernacle is in her! If ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, how <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſhould we be? how glad would we? But,</p>
+            <p>I muſt Confine my ſelf, to my Brethren; I mean, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Miniſters firſt. And then <hi>2ly.</hi> To my preſent A<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>di<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ors. <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> therefore.</p>
+            <pb n="22" facs="tcp:40615:14"/>
+            <p>1. Fathers, and Brethren, to you I crave Leave to direct my Speech. Not taking on me to Rebuke any tho, far be it from me. I know no Reaſon for ſo doing. For my part I preſume only to admoniſh, and that not without Leave ask'd. What to do? To read the Liturgy, and to read it fully, and Completely? Methinks I dare not that neither, I cannot ſuſpect you don't. It is too great a Fault for any honeſt man to be Guilty of. Than an Anti-litur<g ref="char:EOLhyphen"/>gical Conſormiſt, in my Opinion, nothing is more Odious. In <hi>ad<g ref="char:EOLhyphen"/>jecto</hi> 'tis a Contradiction, and ſeems to imply, that, when we Sub<g ref="char:EOLhyphen"/>ſeribe <hi>ex animo,</hi> 'twere to be render'd, out of our Minds, rather then, With all our Hearts. But, let me Admoniſh tho, (it s no Accuſa<g ref="char:EOLhyphen"/>tion, where there is no Fault, but a Commendation)</p>
+            <p n="1">1. To be, Firſt, exact in the Particular before ſpecifi'd, and not to let Preaching take up all the Time, ſo as to Neglect, or put aſide any Part of this Service, which is ſo Divine, and of the two moſt neceſſary. For to what end Preaching, if God be not ſerv'd as he ought to be? And to what end Taught our Du<g ref="char:EOLhyphen"/>ty, if we do not Honour God with Praiſes, and Prayers which are our Chriſtian Sacrifices? Let me ſay that 'tis more to ſerve God one hour Faithfully, then to hear as many do, an hundred Lectures in Divinity. If ye know theſe things, ye know who has ſaid, <hi>Happy are ye if ye do them.</hi>
+            </p>
+            <p n="2">2. To read the Service diſtinctly, Gravely, Reverendly, as be<g ref="char:EOLhyphen"/>comes the Worſhippers of the true God whoſe Throne is in Hea<g ref="char:EOLhyphen"/>ven. Believe it, the want of this is that which makes it Deſpica<g ref="char:EOLhyphen"/>ble with the undiſtinguiſhing People. For the beſt of things be<g ref="char:EOLhyphen"/>ing h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dled up, and handled ſlightly loſe their juſt Eſteem. Then will men be ingag'd to be truly Devout, when their Paſtor, or Prieſt is ſo before them.</p>
+            <p n="3">3. To let the People know that to hear Sermons is not the on<g ref="char:EOLhyphen"/>ly Service (to ſay no more) that they are to Pay to Al<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ighty God. To Jews I confeſs, and Infidels the Apoſtles were to Preach only; letting them know that Jeſus was the Meſſias, they were not yet Capable of Church Comm<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nion. But they did not ſo by Converts and Proſelytes: their way with them ye have in that fore-cited Place, where 'tis ſaid, They contin<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed in the A<g ref="char:EOLhyphen"/>poſtles Doctrine, and Fellowſhip, in breaking of Bread, and in Prayer But,</p>
+            <p n="4">
+               <pb n="23" facs="tcp:40615:14"/>4. Chiefly, give me leave to Mind you to remember your Sub<g ref="char:EOLhyphen"/>ſcriptions, your Aſſent, and Conſent, and all your ſolemn Ingage<g ref="char:EOLhyphen"/>ments, and ſo to be ſtedfaſt, and hold faſt your Profeſſion, as be<g ref="char:EOLhyphen"/>comes the Servants of Chriſt. Brethren, we live in Evil days, in Perillous times: On the one ſide we are call'd Hereticks on the other hand Papiſts: for all that let's ſtand our Ground. 'Tis not as Men will have. Act they may, as they think <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ro<g ref="char:EOLhyphen"/>ject ſecretly, but the Counſel of the Lord, that muſt ſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd. De<g ref="char:EOLhyphen"/>ſign they may, and lay Plots; but there is one that ſitterh in <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Heavens, who will Laugh them to ſcorn. Ye know, what <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>haſhnerus</hi>'s days he did by <hi>Haman</hi> who ſought to deſtroy the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>Haman</hi> was hang'd on his own Gibbet, and <hi>Mordeca<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, (whom he hated) was exalted. What in <hi>D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rius</hi>'s d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yes, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> he diſappointed <hi>Tolna<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> and <hi>Sh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſher Bozn<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i:</hi> They wrote Letters to <hi>Darius</hi> againſt the Jews about the rebuilding of <hi>J<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſal<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</hi> and his Occaſion'd him to make a Decree for them which whoſoever ſhould dare to alter, the Timber of his Houſe ſhould be pull'd down, and ſet up again, and he hang'd thereon and his Houſe be made a Dunghil. And, bleſſed be God, have not we in our days ſeen with our Eyes, that <hi>Jehovah Jireh</hi> is his Name ſtill, that he who keepeth <hi>Iſ<g ref="char:EOLhyphen"/>rael</hi> neither Slumbreth, nor Sleepeth? Beſides, ſhould we come to the Fiery Tryal, and be made to Reſiſt unto Blood; yet even there he can Deliver us, if it pleaſe him. He did ſo by the three Chil<g ref="char:EOLhyphen"/>dren; the Angel of the Lord came down into the Furnace, and beat out the Flame out of the Furnace; and a moiſt whiſtling Wind came, and fann'd their Bodies and cool'd them, and <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> Hair of their Head was ſing'd. <hi>Theodorus</hi> will tell us the ſame, who when he Agoniz'd, and was torn with Scourges, and Whips, being a little reſpited ſaid, that a little Boy ſtood by, and wip'd off his Sweat, and Blood, as with a <hi>Holland</hi> Hend-kerechief. So that ſhould we ſuffer, he will be by to aſſiſt, and upſiold But ſuppoſe the worſt, that we loſe our Lives in the Cauſe of God King <hi>David</hi> ſays, his loving Kindneſs is better then Life, and is <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> his Preſence much more, in which is Fulineſs of <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>? 'Tis but a ſhort Life loſt, and the Martyrs Crown is gain'd. H<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ar what that glorious Hicro-Martys St. <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> ſaid, when inviron'd w<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th his ſix Leopards, as he call'd his Keepers. <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, &amp;c. L<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t Fire, a Croſs, Wild Beaſts, the Cr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing of Bones, Diſtortion of
+<pb n="24" facs="tcp:40615:15"/> Limbs, the Contrition of the whole Body, and the Cuffs, and Tor<g ref="char:EOLhyphen"/>ments of Satan come upon me, ſo I may injoy Chriſt after All. No matter tho we be Ground betwixt the Teeth of wild Beaſts, ſo we be pure Manchet for God at laſt: and if we get to Heaven, (tho with <hi>Elijah</hi> in a Chariot of Fire) what harm? Let us Fear God, and Honour the King, and Fear nothing elſe. Mind our Du<g ref="char:EOLhyphen"/>ty, the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (to borrow a drop of Oyl out of <hi>Epictetus</hi> his Lamp) and for the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Leave them to God. <hi>Chryſoſtom</hi> ſays well to this Purpoſe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p n="2">2. With this I leave you, and turn me to the reſt of my Auditors; whom I beſeech (by the Meekneſs, and Gentleneſs of Chriſt) that you would Conſider ſeriouſly, what it is you Contemn, or Deſpiſe in little ſetting by the Churches Service: its Grave Con<g ref="char:EOLhyphen"/>feſſions, its Comfortable Abſolutions, its wholeſom Prayers, its Seraphick Hymns, its Angelical Doxologies, all made after Chriſt's Pattern, without the leaſt Mixture of that which is truly call'd Po<g ref="char:EOLhyphen"/>pery in it, agreeable to Antiquity in its Doctrine, the trueſt, and moſt ſound Body of Theology, and Seal'd to us with the Blood of Martyrs. I verily believe there is not any thing in it that the An<g ref="char:EOLhyphen"/>cient Fathers, I may ſay, the Apoſtles themſelves, if they were Living, would not ſay Amen to. We do not Truckle under the Church of <hi>Rome,</hi> but derive our Services, and Cuſtoms much beyond them. We do not borrow of thoſe Neighbours of ours, but ſearch their Houſes to ſee what Jewels they have of ours. <hi>Eng<g ref="char:EOLhyphen"/>land</hi> that in other things is the Ape of Nations confeſſedly in this has waited only on God, and Reaſon. What the Ancient Church of Chriſt us'd Primitively is Ours, as well as Theirs. Who can be ſo ſimple as to think that the Apoſtles Creed does not belong to him, becauſe the Papiſts have it as well as he? nor the Creed of <hi>Athanaſius,</hi> becauſe they too own the Doctrine of the Trinity in Unity! Theſe things belong to us as well as to them, and it were very ſtrange if there were nothing amongſt them worthy our re<g ref="char:EOLhyphen"/>ſpect and <gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>eration. Therefore this way be not deluded. Nor again let any thing proved with you neither, to prefer mens Extempore <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, and Daily new made Prayers, us'd by none that I read of An<gap reason="illegible" resp="#APEX" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>ly, but <hi>Achitophel,</hi> when in Rebellion againſt King <hi>Da<g ref="char:EOLhyphen"/>vid,</hi> who to make Religion ſerviceable to his By ends muſt have
+<pb n="25" facs="tcp:40615:15"/> Prayers made him daily New, and freſh as Dr. <hi>Hammond</hi> out of the <hi>Rabbins</hi> tells us: I ſay, to prefer them before the Churches Solemn Prayers (to ſet them out again) taken for the moſt part out of Scripture, us'd by the beſt of Saints, Compos'd by Martyr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, approv'd of, as to its Doctrine, and Manner, by Councils, impos'd by Authority, confirm'd by Law, and that does not ſhun to ſ<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>w its Face in any Language whatſoever, being Tranſlated into Greek and Latine, that the Eaſt, and Weſtern Churches may ſee how it is that we in <hi>England</hi> do ſerve our God. Truly, not in the Churches Prayers, but in our ſelves does the Fault lye; that think, if at a<g ref="char:EOLhyphen"/>ny time we come to Church, 'tis no matter when, or with what Devotion. Ye do God a Favour, ye think, to Tread his Courts; tho ye neither Mind the Confeſſion, nor yet Pray, nor hear the Word read, nor yet give God Praiſe with what Devoti<g ref="char:EOLhyphen"/>on ye ought. Whereas, if ye conſider'd what Remiſſion of ſins is, what to have God's <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>avour; and would but come to the begin<g ref="char:EOLhyphen"/>ning, and Confeſs your ſelves humbly, and take the Abſolution with you, Pronounc'd by one ſtanding in Prieſtly Garments, and ſo in God's ſtead, and then would be hearty in your Prayers, and be Attentive to the Leſſons, together with the Epiſtles, and Goſpels, and perform once the whole Service Intelligently, and Devoutly, beginning with the Confeſſion, and ending with the Benediction, ſure, you would quickly find your Hearts Tranſ<g ref="char:EOLhyphen"/>ported with the Love of it, and be ready to wonder with <hi>Eliſha</hi>'s man that your Eyes were no ſooner open; crying with <hi>Eliſha</hi> himſelf at <hi>Elija</hi>'s Rapture, <hi>My Father, my Father, the Chariots of Iſrael, and the Horſe men thereof!</hi> Could I ſee once a Congregation of ſuch Devout perſons met together, as the Apoſtles were, in one place, and with one Accord, in the Name of Chriſt, what a Bleſſed ſpectacle would that be? How might I affirm that I had ſeen God there, the Angels preſent. Chriſt himſelf in the midſt. And how would all their Hearts, like the Angel that appeared <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <hi>Manoah,</hi> aſcend to Heaven in the <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lames of ſuch <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>Jacob</hi>'s Viſion again, methinks, it is another <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Angels aſcending, and deſcending upon the Rounds of this Ladder. Sure enough, it is not <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Goodneſs in our Prayers, but want of Devotion in our ſelves <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> all.</p>
+            <p>Men will, I hope, be perſwaded to <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> this <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, and learn
+<pb n="26" facs="tcp:40615:16"/> to have a due Regard to ſo Holy a thing as the Churches Service is. That all that hear me may, I ſhall propound to your Conſi<g ref="char:EOLhyphen"/>deration the Conducement hereof to the Peace of the Church, and to the Peace of the Kingdom we live in, our Love to which, next to God's Glory, and Honour, ought to outweigh in the Ballance all other things whatſoever. And indeed,</p>
+            <p n="1">1. Highly will it make for the Peace of the Church, by put<g ref="char:EOLhyphen"/>ting a Bar to Hereſie, and Schiſm. For he that is for the Churches Prayers, cannot be an Heretick. Whereas take away this Hedg, and Mound once, who may not Bleſs the People? as St. <hi>Cy<g ref="char:EOLhyphen"/>prian</hi> complained heavily, a <hi>Montaniſt,</hi> a <hi>Donatiſt,</hi> a <hi>Manichee,</hi> I may add a <hi>Socinian,</hi> an <hi>Anti-trinitarian,</hi> and what not? Then that 'tis a Cure of Schiſm, who does not ſee? for what is it elſe that Keeps our Wounds open, but an Evil Opinion of the Churches Service? a Conceit with ſome that 'tis Popiſh, with others that 'tis not according to the Manner preſcribed by Chriſt? And let me tell you, that Schiſm, as 'tis a prodigious Evil, having malign Influences on the World, ſo 'tis a great Sin alſo, of the firſt Mag<g ref="char:EOLhyphen"/>nitude. St. <hi>Cyprian</hi> equals it to offering Sacrifice to Idols, and well does he; for the Church is the Body of Chriſt, and what a great Sin muſt that be to Rend, and Tear in pieces his Holy, and Sacred Body? to Divide and Crumble into Factions the beſt, and pureſt Societies that ever were, or can be but of Saints in Heaven? For which a Divine of our Church hath ſaid, that it were better thoſe little things, about which our Differences are, were bury<g ref="char:EOLhyphen"/>ed deep, in Eternal Silence, at the very Bottom, and Centre of the Earth, than that the Peace of the Church ſhould be diſturbed by them. But, the Miſchief is, Schiſm is like <hi>Sheol, ſemper Petax,</hi> it is always Craving, never Satisfyed. The beſt Cure of this Ma<g ref="char:EOLhyphen"/>lady that I know, is a due Obedience to our Superiours, together with a general Conformity to, and Uniformity in the Worſhip, and Service of God.</p>
+            <p>Highly alſo will it make for the Peace of the Kingdom, of which we are all Members; it being the main Expedient to bring back that Love, that Unity, that Concord, and that Agreement that hath been ſo long baniſhed from us by this Antecedent Diffe<g ref="char:EOLhyphen"/>rence in Opinion, and Judgment about matters of Worſhip. Whilſt one is for this Sect, another for that; one for Epiſcopacy,
+<pb n="27" facs="tcp:40615:16"/> another for Presbytery; ſome for a Liturgy, others for none; how can we expect that the Bleſſing of Peace ſhould remain in our Borders? Do we not rather make way by it for the Abomination that makes Deſolate to come upon us? I wiſh my Conjecture may prove Abortive, but, that it will be ſo (unleſs God in Mer<g ref="char:EOLhyphen"/>cy by healing our Breaches, and making up our Diviſions put a ſtop to it) <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> may Predict, I think, without a Spirit of Prophecy. 'Tis what fills the Enemies of our Church with Hope, and all her Friends with Fear.</p>
+            <p>And do I not hear you now ſighing out theſe Words of the Pro<g ref="char:EOLhyphen"/>phet, <hi>Is there no Balm in</hi> Gilead? <hi>are there no Phyſicians there? wh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>, is not the Health of the Daughter of my People recovered?</hi> In my Conceit I do, and I ſay to it, that there is Balm in <hi>Gilead,</hi> (bleſſed be God for it) and there are ſtore of Phyſicians there, But to little purpoſe is it, unleſs the Voice of Chriſt may be heard, which calls upon the Sh<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>mite to return: unleſs they that Diſ<g ref="char:EOLhyphen"/>ſent, and Separate, would ſee their Errour once, and go back by the ſame Steps they have gon aſtray, to the Church which they forſook without Cauſe. For tho I may not be bold to ſay of her, as her Spouſe of the Church inviſible, There is no Spot in her; yet this I may, and will ſay, that there is none in her ſo great, as to juſtifie a Separation from her Communion. O that Men would liſten, and give Ear! But what am I? I will leave the Church to ſpeak for her ſelf. I ſee her, methinks, ſtanding at the ſide of her Altar, with her Service Book in her Hand, weeping bitterly, and taking on heavily, that her Children ſhould depart, and go away from her. And what does ſhe further do? why, ſhe Be<g ref="char:EOLhyphen"/>ſeeches, ſhe Conjures them, for the Love they bear (if not to her ſelf) to her Head, and Husband; and that in the Words of her Litany: <hi>By the Myſtery of his Holy Incarnation; <gap reason="illegible" resp="#APEX" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> Na<g ref="char:EOLhyphen"/>tivity, and Circum<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſion; By his Baptiſm, Faſting and <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>; by his Agony, and bloody <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> by his Croſs, and <gap reason="illegible" resp="#APEX" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> pretious Death, and <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>; and by the Glorious <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> and Aſcenſion,</hi> that they would walk according to Rule and <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſame things. That Diſſenters will not heard <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſhould be, how quickly would <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> again, even ſo as to give <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Ezekiel,</hi> which is <hi>Jehovah Shammah,</hi> the Lord <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap>
+               <pb n="28" facs="tcp:40615:17"/> no more, only a Word, or two, by way of Prayer, or Vote, that Almighty God would take the matter into his own Hand, and work upon the Hearts of all the People of this Nation, that they may yet be wiſe, and ſee, and underſtand what is for their own good; learning to ſerve him one Way, and with one Mind, lay<g ref="char:EOLhyphen"/>ing aſide Diviſion, and Schiſm; and indeavouring, as they have one Lord, one Faith, one Baptiſm, one God, and Father of all, to keep the Unity of the Spirit in the Bond of Peace; God of his infi<g ref="char:EOLhyphen"/>nite Mercy grant it, that ſo our Church may continue in Tran<g ref="char:EOLhyphen"/>quility, our Nation abide in Quietneſs, God's Service remain in its Purity, God himſelf be Glorifyed, and our Souls ſaved in the Day of the Lord Jeſus. To whom with the Father, and the Holy Ghoſt, three Perſons, and one God, be aſcribed, as is moſt due, by Angels and Men, by us, and all People, all Honour, and Glory both now, and for evermore.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:40615:17"/>
+         </div>
+      </body>
+   </text>
+</TEI>
